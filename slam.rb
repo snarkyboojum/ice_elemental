@@ -16,8 +16,8 @@ end
 Trollop::die :bucket, "must be given" if not opts[:bucket_given]
 
 s3 = AWS::S3.new(
-  :access_key_id => 'AKIAIOKBJBWZ3PJLQHGA',
-  :secret_access_key => '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'
+  :access_key_id => '<access_key_id>',
+  :secret_access_key => '<secret_access_key>'
 )
 
 # TODO: this check is naive and insufficient
